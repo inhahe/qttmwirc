@@ -1,0 +1,48 @@
+network
+  "factoryinstance" (serverfactory)
+  "serverwindow"
+serverfactory
+  serverconnection
+  network
+channel
+  name
+  users {username.lower():user}
+  channelwindow
+  network
+channelwindow
+  channel
+  nickslist
+  textwindow
+  editwindow (channelinputqtextedit)
+serverwindow
+  network
+  textwindow
+  editwindow (serverinputqtextedit)
+messagewindow
+  network
+channelinputqtextedit
+  channel
+serverinputqtextedit
+  network
+messageinputqtextedit
+  messagewindow
+network
+  config config["networks"] member  
+  serverwindow
+  channels {channelname.lower(): channel}
+  factoryinstance (serverfactory)
+channeluser
+  prefix
+  hostmask
+  nick
+  item
+serverconnection
+  nickname
+  factoryinstance
+nickitem
+  label (nick)
+  user (channeluser)
+
+
+
+not sure if networks should have channels and channes should have networks or factoryinstances should have channels and channels should have factoryinstances.
