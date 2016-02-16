@@ -6,7 +6,7 @@ I had written a similar program in 2009, also using Python 2.x, Twisted and PyQt
 
 This version is, I think, more developed than the first version was, though I'm pretty sure I coded support for plugins in the first version, which isn't in this version. 
 
-There may be files included that aren't really necessary for the project. I'm not even sure if all the files included are legal for me to distribute. Owel.
+There may be files included that aren't really necessary for the project. I'm not even sure if all the files included are legal for me to distribute. Oh well.
 
 I'm posting these two projects so that people can contribute to them and do the work of making them fully fledged that I'm too lazy to do. =) Maybe someone can even bring together the best parts of both projects into one of these two projects or into a new project. (It would be sad if I'm not the owner of said new project, though. :)) 
 
